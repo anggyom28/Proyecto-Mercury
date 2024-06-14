@@ -11,7 +11,7 @@ class HomeWebElements:
     password_register = (By.XPATH, "//input[contains(@name,'password')]")
     confirm_password = (By.XPATH, "//input[contains(@name,'confirmPassword')]")
     button = (By.XPATH, "//input[@src='images/submit.gif']")
-    confirmation_message = (By.XPATH, "//b[contains(.,'Note: Your user name is walterchp@gmail.com.')]")
+    confirmation_message = (By.XPATH, "//b[contains(.,'Note: Your user name is anggy0428@gmail.com.')]")
     
     # Elements login
     email_login = (By.XPATH, "//input[contains(@type,'text')]")

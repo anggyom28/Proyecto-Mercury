@@ -18,6 +18,6 @@ def before_feature(context, feature):
 
 def before_scenario(context, scenario):
     context.browser.get(context.url)
-    context.valid_email = "walterchp@gmail.com"
+    context.valid_email = "anggy0428@gmail.com"
     context.valid_password = "Prueba.01"
     time.sleep(3)
